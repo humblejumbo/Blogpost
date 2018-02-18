@@ -1,0 +1,25 @@
+
+
+i.icon{
+    font-size:2em;
+}
+
+.ui.segment{
+    margin: 3em;
+}
+
+.ui.segment:last-child{
+    margin-bottom: 2em;
+}
+
+#delete{
+    display: inline;
+}
+
+/*.ui.header:first-child {
+    margin-top: 2em;
+}*/
+
+#stories{
+    margin-top: 2em;
+}
