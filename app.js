@@ -10,7 +10,7 @@ app.use(express.static('public'));
 app.use(methodoverride("_method"))
 app.use(expressSanitizer());
 //mongoose.connect("mongodb://localhost/blog_app");
-mongoose.connect(mongodb://boogyman:boo@ds215089.mlab.com:15089/blogpost);
+mongoose.connect("mongodb://boogyman:boo@ds215089.mlab.com:15089/blogpost");
 
 var newSchema=new mongoose.Schema(
     {
